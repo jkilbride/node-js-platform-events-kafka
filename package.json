@@ -1,0 +1,16 @@
+{
+  "name": "cmd_line_sample",
+  "version": "1.0.0",
+  "description": "Command Line Application for consuming Platform Events from Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsforce": "^1.9.1",
+    "kafka-node": "^3.0.1",
+    "no-kafka": "^3.4.2"
+  }
+}
