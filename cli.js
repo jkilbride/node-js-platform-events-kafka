@@ -28,8 +28,9 @@ console.log(producer);
 console.log('Producer Initialized');
 
 var jsforce = require('jsforce');
-var username = 'jkilbride@aercapirelandltd.demo';
-var password = 'salesforce1';
+var username = '';
+var password = '';
+
 var conn = new jsforce.Connection({});
 conn.login(username, password, function(err, userInfo) {
   if (err) { return console.error(err); }
